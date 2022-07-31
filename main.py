@@ -2,9 +2,9 @@
 
 ## Inputting words list
 words =[]
-
-for i in int(input("How many words would you like to search? :")):
-    word = input(f"Please enter word {i}:")
+len = int(input("How many words would you like to search? :"))
+for i in range(len):
+    word = input(f"Please enter word {i+1}:")
     words.append(word)
 
 # Reading word matrix
